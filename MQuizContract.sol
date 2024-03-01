@@ -16,7 +16,7 @@ contract SalaryCalculator {
         owner = msg.sender;
     }
 
-    function setAge(uint256 _age) external onlyOwner {
+    function setAge(uint256 _age) external {
         age = _age;
     }
 
